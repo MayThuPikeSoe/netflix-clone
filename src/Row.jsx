@@ -32,6 +32,7 @@ const Row = ({ title, fetchUrl, isLargeRow }) => {
           />
         ))}
       </div>
+      <Youtube video={trailerUrl} opts={opts} />
     </div>
   );
 };
